@@ -1,0 +1,105 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.fieldSet {
+  height: 3550px;
+  position: absolute;
+  border: 4px dotted #fff;
+  width: 85%;
+  z-index: 13;
+  left: 7%;
+  right: 0;
+  top: 14%;
+  border-radius: 50px;
+  border-bottom: none;
+}
+
+.ifactoryStyle {
+  position: absolute;
+  text-align: center;
+  top: -13px;
+  left: 45%;
+  color: #ffff;
+  width: 193px;
+  background: #1f1627;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.wrapper {
+  padding: 30px;
+  font-family: sans-serif;
+}
+.cus-div {
+  width: 100%;
+  position: relative;
+}
+
+#skew1 {
+  background-color: #1f1627;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  z-index: 10;
+  color: #ffff;
+}
+.borderRadius {
+  border-radius: 50px 50px 0 0;
+}
+
+#skew2 {
+  background: url("./image/download.png");
+  z-index: 9;
+}
+#skew3 {
+  background: url("./image/download.png");
+  z-index: 8;
+}
+#skew4 {
+  background: url("./image/download.png");
+  z-index: 7;
+}
+#skew5 {
+  background: url("./image/download.png");
+  z-index: 6;
+}
+#skew6 {
+  background: url("./image/download.png");
+  z-index: 5;
+}
+a {
+  color: #ffff;
+}
+.cus-div:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  content: "";
+}
+
+#skew1:after,
+#skew2:after,
+#skew3:after,
+#skew4:after,
+#skew5:after,
+#skew6:after {
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+
+.content {
+  font-weight: bold;
+  text-align: center;
+  padding: 200px 100px;
+  overflow: hidden;
+  display: block;
+  height: auto;
+  color: #ffff;
+}

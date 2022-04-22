@@ -1,0 +1,75 @@
+
+.contact-card-user {
+    background: #fff;
+    display: flex;
+    width: max-content;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.05);
+}
+.contact-card-user .left-side img {
+    width: 100%;
+    height: auto;
+}
+.contact-card-user .right-side {
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    width: 100%;
+    max-width: 260px;
+}
+.contact-card-user .details-wrapper {
+    text-align: left;
+}
+.contact-card-user .details-wrapper h3 {
+    color: #333;
+    font-size: 16px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    margin-bottom: 1px;
+    line-height: normal;
+}
+.contact-card-user .details-wrapper .designation {
+    color: #333;
+    margin-bottom: 5px;
+}
+.contact-card-user .details-wrapper .description {
+    color: #9a9a9a;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+
+
+
+
+/* serch Bar */
+.container {
+    margin-top:5vh;
+}
+
+.btn:hover {
+    color: #fff
+}
+
+.input-text:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: #f8c146;
+    outline: 0px
+}
+
+.form-control {
+    border: 1px solid #f8c146
+}
+
+
+/* Button Property */
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
